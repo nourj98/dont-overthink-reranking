@@ -1,0 +1,25 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+
+# Local environment configuration
+.env
+.env.*
+!.env.example
